@@ -1,0 +1,29 @@
+@import 'blog.css';
+.comtainer{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 100px 400px 600px 100px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "feat feat feat feat feat feat feat feat"
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+    border: 1px black;
+}
+.box{
+    border: 1px gray;
+    background-color: aliceblue;
+}
+.header{
+    grid-area: hd;
+    text-align: center;
+}
+.feature{
+    grid-area: feat;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: ft;
+}
