@@ -14,14 +14,32 @@
   /* add css for nested grid here */
 #nestedGrid{
     display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    border: 2px green;
 }
 .nestedGrid > *{
-    border: 2px solid aquamarine;
+    border: 1px solid aquamarine;
+}
+.blogs{
+    width: auto;
+    height: 130px;
+    border: 0.5px solid grey;
+}
+#first{
+    background-color: #FAFAD2;
+}
+#second{
+    background-color: rgba(0, 255, 179, 0.479);
+}
+#third{
+    background-color: rgba(0, 255, 179, 0.479);
+}
+#forth{
+    background-color: rgba(0, 255, 179, 0.479);
 }
 .box{
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     background: white;
 }
 .header{
@@ -36,13 +54,13 @@
 }
 .content{
     grid-area: main;
-    background-image: url("../images/background_image1.jpg");
+    /*background-image: url("../images/background_image1.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    /*-webkit-background-size: contain;
+    -webkit-background-size: contain;
     -moz-background-size: contain;
-    -o-background-size: contain;*/
-    background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;*/
 }
   /* If Screen Is Wide Enough */
 @media(min-width:900px){
@@ -54,6 +72,6 @@
         "hd hd hd hd hd hd hd hd"
         "sd sd main main main main main main"
         "ft ft ft ft ft ft ft ft";
-        /*border: 2px solid red;*/
+        border: 2px solid red;
     }
 }
