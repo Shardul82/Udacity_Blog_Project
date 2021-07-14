@@ -1,22 +1,20 @@
-@import 'blog.css';
 .comtainer{
     display:grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 100px 400px 600px 100px;
+    grid-template-rows: 250px 600px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "feat feat feat feat feat feat feat feat"
     "main main main main main main main main"
     "ft ft ft ft ft ft ft ft";
-    border: 1px black;
+    border: 1px solid black;
 }
 .box{
     border: 1px gray;
-    background-color: aliceblue;
+    background-color: #FAFAD2;
 }
 .header{
     grid-area: hd;
-    text-align: center;
 }
 .feature{
     grid-area: feat;
@@ -26,4 +24,41 @@
 }
 .footer{
     grid-area: ft;
+}
+figure {
+    float: left; 
+    width: 60%;   
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+@media(min-width:600px) and (max-width:1000px){
+    .container{
+      display:grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "feat feat feat feat feat feat feat feat"
+      "main main main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+      border: 2px solid black;
+  }
+}
+@media(min-width:1000px){
+    .container{
+      display:grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "feat feat feat feat feat feat feat feat"
+      "main main main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+      border: 2px solid black;
+  }
 }
