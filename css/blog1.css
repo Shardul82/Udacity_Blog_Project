@@ -10,12 +10,12 @@
     border: 1px solid black;
 }
 h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-style: italic;
-    color:goldenrod;
+    color:brown;
 }
 h2{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-style: oblique;
     color: darkslategrey;
 }
@@ -26,15 +26,15 @@ h3{
 }
 p{
     font-size: large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
 }
 u{
-    color: royalblue;
+    color:midnightblue;
 }
 .box{
     border: 1px gray;
-    background-color:lightblue;
+    background-color:rgb(203, 207, 250);
 }
 .header{
     grid-area: hd;
