@@ -1,7 +1,7 @@
 .comtainer{
     display:grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
+    grid-template-rows: 100px 600px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "feat feat feat feat feat feat feat feat"
@@ -9,9 +9,37 @@
     "ft ft ft ft ft ft ft ft";
     border: 1px solid black;
 }
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color:indigo;
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: darkslategrey;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color:firebrick;
+}
+p{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+cite{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+u{
+    color:midnightblue;
+}
 .box{
     border: 1px gray;
-    background-color: #FAFAD2;
+    background-color:rgb(91, 243, 111);
 }
 .header{
     grid-area: hd;
@@ -40,7 +68,7 @@ figure {
     .container{
       display:grid;
       grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 250px 600px;
+      grid-template-rows: 100px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "feat feat feat feat feat feat feat feat"
@@ -53,7 +81,7 @@ figure {
     .container{
       display:grid;
       grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 250px 600px;
+      grid-template-rows: 100px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "feat feat feat feat feat feat feat feat"

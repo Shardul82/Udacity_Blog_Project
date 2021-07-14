@@ -29,6 +29,11 @@ p{
     font-family:'Times New Roman', Times, serif;
     font-weight: 400;
 }
+blockquote{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+}
 u{
     color:midnightblue;
 }
