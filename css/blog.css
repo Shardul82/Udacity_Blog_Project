@@ -1,7 +1,7 @@
 .comtainer{
     display:grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
+    grid-template-rows: 100px 600px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "feat feat feat feat feat feat feat feat"
@@ -9,9 +9,32 @@
     "ft ft ft ft ft ft ft ft";
     border: 1px solid black;
 }
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color:goldenrod;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: darkslategrey;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color:firebrick;
+}
+p{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+u{
+    color: royalblue;
+}
 .box{
     border: 1px gray;
-    background-color: #FAFAD2;
+    background-color:lightblue;
 }
 .header{
     grid-area: hd;
@@ -40,7 +63,7 @@ figure {
     .container{
       display:grid;
       grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 250px 600px;
+      grid-template-rows: 100px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "feat feat feat feat feat feat feat feat"
@@ -53,7 +76,7 @@ figure {
     .container{
       display:grid;
       grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 250px 600px;
+      grid-template-rows: 100px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "feat feat feat feat feat feat feat feat"

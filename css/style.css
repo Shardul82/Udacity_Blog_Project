@@ -2,11 +2,10 @@
 @import "./blog1.css";
 @import "./blog2.css";
 @import "./blog3.css";
-@import "./blog4.css";
 .container{
     display:grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
+    grid-template-rows: 200px 600px;
     /* grid-template-columns: repeat(3, 1fr); */
     /* Initially each element has its own row for small screens */
     grid-template-areas: 
@@ -84,7 +83,7 @@ img:hover{
     .container{
         display:grid;
         grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 250px 600px;
+        grid-template-rows: 200px 600px;
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd"
         "sd sd main main main main main main"
@@ -95,7 +94,7 @@ img:hover{
     .container{
         display:grid;
         grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 250px 600px;
+        grid-template-rows: 200px 600px;
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd"
         "sd sd main main main main main main"
