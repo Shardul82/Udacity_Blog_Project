@@ -1,7 +1,7 @@
 .comtainer{
     display:grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
+    grid-template-rows: 120px 600px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "feat feat feat feat feat feat feat feat"
@@ -9,9 +9,51 @@
     "ft ft ft ft ft ft ft ft";
     border: 1px solid black;
 }
+h1{
+    font-family:cursive;
+    font-style: italic;
+    color:indigo;
+    margin: 0%;
+}
+h2{
+    font-family:cursive;
+    font-style: oblique;
+    color: rgb(10, 65, 65);
+}
+h3{
+    font-family:cursive;
+    font-style:normal;
+    color:black;
+}
+h4{
+    margin:0%;
+}
+.iconDetails {
+    float:left; 
+    height:40px;
+    width:40px;	
+}
+.container2 {
+    width:100%;
+    height:auto;
+    padding:1%;
+}
+p{
+    font-size: large;
+    font-family:cursive;
+    font-weight: 400;
+}
+blockquote{
+    font-size: large;
+    font-family:cursive;
+    font-weight: 400;
+}
+u{
+    color:rgb(131, 1, 1);
+}
 .box{
-    border: 1px gray;
-    background-color: #FAFAD2;
+    border: 1px rgba(17, 0, 0, 0.562);
+    background-color:rgb(247, 179, 134);
 }
 .header{
     grid-area: hd;
@@ -24,6 +66,27 @@
 }
 .footer{
     grid-area: ft;
+}
+.fa {
+    padding: 15px;
+    text-align: center;
+    margin: 2px;
+    width: 50px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.9;
 }
 figure {
     float: left; 
@@ -40,7 +103,7 @@ figure {
     .container{
       display:grid;
       grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 250px 600px;
+      grid-template-rows: 120px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "feat feat feat feat feat feat feat feat"
@@ -53,7 +116,7 @@ figure {
     .container{
       display:grid;
       grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 250px 600px;
+      grid-template-rows: 120px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "feat feat feat feat feat feat feat feat"
