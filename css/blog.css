@@ -1,3 +1,6 @@
+body{
+    background-color: lightblue;
+}
 .comtainer{
     display:grid;
     grid-template-columns: 300px 300px 300px;
@@ -28,6 +31,8 @@ h3{
 }
 h4 {
     margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 h5{
     font-family: Arial, Helvetica, sans-serif;
@@ -102,27 +107,27 @@ figure {
   }
 @media(min-width:600px) and (max-width:1000px){
     .container{
-      display:grid;
-      grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 120px 600px;
-      grid-template-areas: 
-      "hd hd hd hd hd hd hd hd"
-      "feat feat feat feat feat feat feat feat"
-      "main main main main main main main main"
-      "ft ft ft ft ft ft ft ft";
-      border: 2px solid black;
-  }
+        display:grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 120px 600px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "feat feat feat feat feat feat feat feat"
+        "main main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+        border: 2px solid black;
+    }
 }
 @media(min-width:1000px){
     .container{
-      display:grid;
-      grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 120px 600px;
-      grid-template-areas: 
-      "hd hd hd hd hd hd hd hd"
-      "feat feat feat feat feat feat feat feat"
-      "main main main main main main main main"
-      "ft ft ft ft ft ft ft ft";
-      border: 2px solid black;
-  }
+        display:grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 120px 600px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "feat feat feat feat feat feat feat feat"
+        "main main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+        border: 2px solid black;
+    }
 }
